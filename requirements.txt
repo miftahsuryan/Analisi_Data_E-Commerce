@@ -4,4 +4,8 @@ matplotlib
 seaborn
 folium
 streamlit
+<<<<<<< HEAD
 scikit-learn
+=======
+scikit-learn
+>>>>>>> 0c402bcfa926eca5616bb39cf00efe57fd3e059c
