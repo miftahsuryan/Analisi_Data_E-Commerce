@@ -1,7 +1,7 @@
 pandas
-numpy 
+numpy
 matplotlib
-matplotlib.pyplot
 seaborn
 folium
 streamlit
+scikit-learn
