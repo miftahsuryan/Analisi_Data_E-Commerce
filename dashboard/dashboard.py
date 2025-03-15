@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 st.title("Analisis Data E-Commerce")
 
 #menyiapkaan data yang akan ditampilkan
-sales_df = pd.read_csv('combined_sales_kategori_df.csv')
-city_df = pd.read_csv('order_per_city_df.csv')
-state_df = pd.read_csv('order_per_state_df.csv')
-
+sales_df = pd.read_csv('https://github.com/miftahsuryan/Analisi_Data_E-Commerce/blob/master/dashboard/combined_sales_kategori_df.csv')
+city_df = pd.read_csv('https://github.com/miftahsuryan/Analisi_Data_E-Commerce/blob/master/dashboard/order_per_city_df.csv')
+state_df = pd.read_csv('https://github.com/miftahsuryan/Analisi_Data_E-Commerce/blob/master/dashboard/order_per_state_df.csv')
+time_df=pd.read_csv()
 # sidebar
 st.sidebar.title("Menu")
 option = st.sidebar.radio(
